@@ -14,11 +14,10 @@ URL:            https://github.com/micl2e2/quickjs
 Source0:        https://codeload.github.com/micl2e2/quickjs/tar.gz/%{commit}
 BuildArch:      noarch
 
-# HTML via makeinfo (texinfo); PDF via texi2pdf (texinfo-tex).
 BuildRequires:  make
 BuildRequires:  texinfo
 BuildRequires:  texinfo-tex
-# Man page from the generated HTML. Pandoc does not read Texinfo.
+# NOTE for EL family chroot, add `https://dl.fedoraproject.org/pub/epel/$releasever/Everything/$basearch/` to corresponding Copr project's Settings - Repos
 BuildRequires:  pandoc
 
 %description

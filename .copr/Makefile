@@ -1,8 +1,5 @@
 
-repos:
-	cat /etc/os-release | grep --quiet AlmaLinux && dnf -y install "https://mirrors.rpmfusion.org/free/el/rpmfusion-free-release-$$(rpm -E %rhel).noarch.rpm"
-
-packages: repos
+packages:
 	dnf --quiet -y install git tree gcc
 
 create_source_rpm:
