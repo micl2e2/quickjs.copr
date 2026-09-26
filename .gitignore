@@ -1,3 +1,5 @@
+llm-discipline.md
+
 # Prerequisites
 *.d
 
@@ -53,3 +55,34 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Packages written by rpmbuild, including *.src.rpm
+*.rpm
+
+# Files generated while building the packages
+*.pdf
+*.html
+*.htm
+*.html.pre
+*.1
+*.2
+*.3
+*.4
+*.5
+*.log
+
+# Archives fetched or packed during the build
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.tbz
+*.tbz2
+*.tar.xz
+*.txz
+*.tar.zst
+*.zip
+*.gz
+*.bz2
+*.xz
+
