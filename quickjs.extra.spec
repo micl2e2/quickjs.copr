@@ -16,7 +16,7 @@ Summary:        WIP
 License:        MIT
 URL:            https://github.com/micl2e2/quickjs
 # Source0:        https://codeload.github.com/micl2e2/quickjs/tar.gz/%{commit}
-Source0:        quickjs-7754c8eb4a8db331c14df46ee54f3be68a2a83fb.tar.gz
+Source0:        quickjs.tar.gz
 
 BuildRequires:  gcc
 BuildRequires:  glibc-devel
